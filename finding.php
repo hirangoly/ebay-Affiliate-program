@@ -8,7 +8,7 @@ error_reporting(E_ALL);  // Turn on all errors, warnings and notices for easier 
 // API request variables
 $endpoint = 'http://svcs.ebay.com/services/search/FindingService/v1';  // URL to call
 $version = '1.0.0';  // API version supported by your application
-$appid = 'Ezdia8553-87dd-4673-901a-353e433286c';  // Replace with your own AppID
+$appid = 'abcd5464-3456-6687-989s-234r456234d';  // Replace with your own AppID
 $globalid = 'EBAY-US';  // Global ID of the eBay site you want to search (e.g., EBAY-DE)
 $query = $category;  // You may want to supply your own query
 $safequery = urlencode($query);  // Make the query URL-friendly
