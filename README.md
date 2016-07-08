@@ -1,6 +1,6 @@
 ebay-Affiliate-program
 ======================
-Make money by displaying ebay products to you website and get paid if any user click/buy/bid on any of product through your website.
+Make money by displaying ebay products to your website and get paid if any user click/buy/bid on any of product through your website.
 
 basic steps: 
 * Register to http://developer.ebay.com/ to get your own API ID. 
