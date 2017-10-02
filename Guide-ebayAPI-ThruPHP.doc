@@ -11,7 +11,7 @@ c.	 'abcd5464-3456-6687-989s-234r456234d';  (your own AppID)
 d.	 'EBAY-US';  (Global ID of the eBay site you want to search (e.g., EBAY-DE))
 e.	 'sony laptop';  (keyword to search and should be urlencoded)
 6.	Append all FindItemsKeyword input parameters in a variable for constructing HTTP GET call:
-a.	$apicall = http://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=findItemsByKeywords&SERVICE-VERSION=1.0.0&SECURITY-APPNAME=Ezdia8553-87dd-4673-901a-353e433286c&GLOBAL-ID=EBAY-US &keywords=sony laptop&paginationInput.entriesPerPage=3";
+a.	$apicall = http://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=findItemsByKeywords&SERVICE-VERSION=1.0.0&SECURITY-APPNAME=ABCD8553-83dd-4sa-90dsa1a-353e433286c&GLOBAL-ID=EBAY-US &keywords=sony laptop&paginationInput.entriesPerPage=3";
 7.	 Load the call and capture the document returned by eBay API using $resp = simplexml_load_file($apicall);  
 8.	If the request was successful and the response was loaded then parse it and present in user friendly way.
 if ($resp->ack == "Success") {
