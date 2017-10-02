@@ -1,4 +1,4 @@
-<div class="span-8 last">
+ia<div class="span-8 last">
 
 	
 	<div class="sidebar">
@@ -10,11 +10,11 @@
 		
 		<div style="float: left; margin-left: -7px; margin-top: 7px;">
 		<script type="text/javascript"><!--
-		google_ad_client = "pub-3559254481837475";
+		google_ad_client = "pub-32423552352";
 		/* 300x250, created 9/2/10 */
-		google_ad_slot = "8415780925";
-		google_ad_width = 300;
-		google_ad_height = 250;
+		google_ad_slot = "4323434";
+		google_ad_width = 450;
+		google_ad_height = 220;
 		//-->
 		</script>
 		<script type="text/javascript"
@@ -76,23 +76,7 @@
 		<!-- finding ebay API -->
         
         
-        <?php if(get_theme_option('socialnetworks') != '') {
-			?>
-    			<div class="addthis_toolbox">   
-    			    <div class="custom_images">
-    			            <a class="addthis_button_twitter"><img src="<?php bloginfo('template_directory'); ?>/images/socialicons/twitter.png" width="32" height="32" alt="Twitter" /></a>
-    			            <a class="addthis_button_delicious"><img src="<?php bloginfo('template_directory'); ?>/images/socialicons/delicious.png" width="32" height="32" alt="Delicious" /></a>
-    			            <a class="addthis_button_facebook"><img src="<?php bloginfo('template_directory'); ?>/images/socialicons/facebook.png" width="32" height="32" alt="Facebook" /></a>
-    			            <a class="addthis_button_digg"><img src="<?php bloginfo('template_directory'); ?>/images/socialicons/digg.png" width="32" height="32" alt="Digg" /></a>
-    			            <a class="addthis_button_stumbleupon"><img src="<?php bloginfo('template_directory'); ?>/images/socialicons/stumbleupon.png" width="32" height="32" alt="Stumbleupon" /></a>
-    			            <a class="addthis_button_favorites"><img src="<?php bloginfo('template_directory'); ?>/images/socialicons/favorites.png" width="32" height="32" alt="Favorites" /></a>
-    			            <a class="addthis_button_more"><img src="<?php bloginfo('template_directory'); ?>/images/socialicons/more.png" width="32" height="32" alt="More" /></a>
-    			    </div>
-    			    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=xa-4a65e1d93cd75e94"></script>
-    			</div>
-    			<?php
-    		}
-    	?>
+        
 		
         <?php
 		if(get_theme_option('rssbox') == 'true') {
